@@ -3,7 +3,7 @@ import "primeicons/primeicons.css";
 </script>
 <template>
   <footer
-    class="max-w-screen-xl mx-auto w-full sticky bottom-0 right-0 border-t-2 bg-slate-50 border-slate-500"
+    class="max-w-screen-xl mx-auto w-full flex justify-center border-t-2 bg-slate-50 border-slate-500 z-50"
   >
     <article class="my-4 flex justify-center items-center flex-col gap-4">
       <div class="flex items-center gap-4">

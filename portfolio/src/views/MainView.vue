@@ -1,7 +1,7 @@
 <script></script>
 <template>
   <section
-    class="mx-auto flex gap-20 justify-between px-10 my-8 flex-col items-center md:flex-row"
+    class="mx-auto flex gap-20 px-10 my-8 flex-col items-center md:flex-row md:max-w-7xl"
   >
     <img
       src="../assets/images/me.jpg"
@@ -9,7 +9,7 @@
       alt="Я"
     />
     <article class="flex flex-col">
-      <p>
+      <p class="md:max-w-4xl">
         Здравствуйте, я&nbsp;Front-End Разработчик на&nbsp;React.
         Но&nbsp;так&nbsp;же знаю такой фреймворк как Vue, на&nbsp;котором
         написан этот сайт. Фреймворка для реакт который использую это NextJS.
