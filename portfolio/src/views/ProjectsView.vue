@@ -6,7 +6,9 @@ import { techIcons1, techIcons2 } from "@/consts/consts";
 </script>
 
 <template>
-  <section class="flex-1 mb-8 px-20 flex flex-col items-center md:">
+  <section
+    class="max-w-xs mx-auto flex-1 mb-8 px-20 flex flex-col items-center md:max-w-7xl"
+  >
     <h2 class="text-center font-bold font-mono md:text-4xl">
       Список моих проектов:
     </h2>
