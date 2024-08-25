@@ -1,7 +1,13 @@
 <script></script>
 <template>
-  <section class="mx-auto flex gap-20 justify-between px-10 my-8 flex-col">
-    <img src="../assets/images/me.jpg" class="rounded-full" alt="Я" />
+  <section
+    class="mx-auto flex gap-20 justify-between px-10 my-8 flex-col items-center md:flex-row"
+  >
+    <img
+      src="../assets/images/me.jpg"
+      class="rounded-full max-w-60 md:max-w-72"
+      alt="Я"
+    />
     <article class="flex flex-col">
       <p>
         Здравствуйте, я&nbsp;Front-End Разработчик на&nbsp;React.
