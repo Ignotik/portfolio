@@ -1,7 +1,7 @@
 <script setup>
 import ProjectCard from "../components/ProjectCard.vue";
 import PromStroi from "../assets/images/PromStroi.png";
-import Portfolio from "../assets/images/Portfolio.png";
+import Portfolio from "../assets/images/portfolio.png";
 import { techIcons1, techIcons2 } from "@/consts/consts";
 </script>
 
