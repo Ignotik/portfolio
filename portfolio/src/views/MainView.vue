@@ -9,7 +9,7 @@
       alt="Я"
     />
     <article class="flex flex-col">
-      <p class="md:max-w-4xl">
+      <p class="max-w-2xl">
         Здравствуйте, я&nbsp;Front-End Разработчик на&nbsp;React.
         Но&nbsp;так&nbsp;же знаю такой фреймворк как Vue, на&nbsp;котором
         написан этот сайт. Фреймворка для реакт который использую это NextJS.
