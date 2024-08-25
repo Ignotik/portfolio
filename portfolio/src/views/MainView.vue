@@ -1,19 +1,16 @@
-<script>
-import "primeicons/primeicons.css";
-</script>
+<script></script>
 <template>
-  <section class="flex gap-10 justify-between px-10 my-8">
-    <img src="../assets/images/me.jpg" class="w-full rounded-2xl" alt="Я" />
+  <section class="mx-auto flex gap-20 justify-between px-10 my-8 flex-col">
+    <img src="../assets/images/me.jpg" class="rounded-full" alt="Я" />
     <article class="flex flex-col">
       <p>
         Здравствуйте, я&nbsp;Front-End Разработчик на&nbsp;React.
         Но&nbsp;так&nbsp;же знаю такой фреймворк как Vue, на&nbsp;котором
         написан этот сайт. Фреймворка для реакт который использую это NextJS.
-        Писал сайт для компании для продажи угля, песка и&nbsp;пиломатериалов,
-        который вы&nbsp;можете увидеть на&nbsp;страничке &laquo;Проекты&raquo;.
-        Умею работать с запросами на&nbsp;бекенд. Знаю Rest API. Для запросов
-        на&nbsp;сервер использую сайт : &laquo;https://mocky.dev&raquo;. Вот
-        весь мой стек технологий:
+        Все мои проекты вы&nbsp;можете увидеть на&nbsp;страничке
+        &laquo;Проекты&raquo;. Умею работать с запросами на&nbsp;бекенд. Знаю
+        Rest API. Для запросов на&nbsp;сервер использую сайт :
+        &laquo;https://mocky.dev&raquo;. Вот весь мой стек технологий:
       </p>
       <div class="max-w-72 mt-4 flex flex-wrap gap-8">
         <img src="../assets/images/icons8-git-40.png" class="w-10" alt="Git" />

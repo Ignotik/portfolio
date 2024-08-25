@@ -3,12 +3,9 @@
   <header
     class="max-w-screen-xl mx-auto mt-4 pb-4 px-4 border-b-4 border-slate-500"
   >
-    <ul class="flex justify-between font-mono">
+    <ul class="flex font-mon gap-8">
       <li class="hover:text-lime-400">
         <RouterLink to="/">Главная</RouterLink>
-      </li>
-      <li class="hover:text-lime-400">
-        <RouterLink to="/about">Обо мне</RouterLink>
       </li>
       <li class="hover:text-lime-400">
         <RouterLink to="/projects">Проекты</RouterLink>
