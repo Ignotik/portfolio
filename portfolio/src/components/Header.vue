@@ -8,6 +8,12 @@
         <RouterLink to="/">Главная</RouterLink>
       </li>
       <li class="hover:text-lime-400">
+        <RouterLink to="/stack">Стек-технологий</RouterLink>
+      </li>
+      <li class="hover:text-lime-400">
+        <RouterLink to="/commercial">Коммерческий опыт</RouterLink>
+      </li>
+      <li class="hover:text-lime-400">
         <RouterLink to="/projects">Проекты</RouterLink>
       </li>
     </ul>

@@ -17,7 +17,8 @@ import { techIcons1, techIcons2 } from "@/consts/consts";
       imageAlt="ПромСтройСнаб"
       title="ПромСтройСнаб"
       projectLink="https://pet-project-gamma.vercel.app"
-      description="Компания по перевозки угля, щебня, песка и пиломатериалов"
+      description="(В данном проекте хотел показать только свои умения работы с инструментами, вёртска была не главной)
+      Компания по перевозки угля, щебня, песка и пиломатериалов"
       :techIcons="techIcons1"
       :reverse="false"
     />
