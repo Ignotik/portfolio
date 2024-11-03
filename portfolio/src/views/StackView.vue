@@ -8,10 +8,10 @@ import {
 </script>
 
 <template>
-  <section class="mx-auto px-10 mb-4 md:flex-row md:max-w-7xl">
+  <section class="mb-40 mx-auto px-10 md:flex-row md:max-w-7xl">
     <h2 class="text-center font-bold font-mono md:text-4xl">Стек</h2>
 
-    <article class="flex gap-1 mb-8 items-center">
+    <article class="flex gap-2 mb-8 items-center flex-wrap">
       Языки программирования:
       <div
         v-for="lang in languages"
@@ -23,7 +23,7 @@ import {
       </div>
     </article>
 
-    <article class="flex gap-1 mb-8 items-center">
+    <article class="flex gap-2 mb-8 items-center flex-wrap">
       Front-end:
       <div
         v-for="framework in FrontEndStack"
@@ -34,7 +34,7 @@ import {
         <span>{{ framework.alt }}</span>
       </div>
     </article>
-    <article class="flex gap-2 mb-8 items-center">
+    <article class="flex gap-2 mb-8 items-center flex-wrap">
       Back-end:
       <div
         v-for="framework in BackEndStack"
@@ -45,7 +45,7 @@ import {
         <span>{{ framework.alt }}</span>
       </div>
     </article>
-    <article class="flex gap-2 mb-8 items-center">
+    <article class="flex gap-2 mb-8 items-center flex-wrap">
       Data-base:
       <div v-for="data in DB" :key="data.alt" class="flex items-center gap-1">
         <img :src="data.src" class="w-8" :alt="data.alt" /> -

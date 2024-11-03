@@ -7,9 +7,9 @@ import { techIcons1, techIcons2 } from "@/consts/consts";
 
 <template>
   <section
-    class="max-w-xs mx-auto flex-1 mb-8 px-20 flex flex-col items-center md:max-w-7xl"
+    class="max-w-xs mx-auto flex-1 mb-32 px-20 flex flex-col items-center md:max-w-7xl"
   >
-    <h2 class="text-center font-bold font-mono md:text-4xl">
+    <h2 class="text-center font-bold font-mono mt-4 md:text-4xl">
       Список моих проектов:
     </h2>
     <ProjectCard
@@ -28,6 +28,15 @@ import { techIcons1, techIcons2 } from "@/consts/consts";
       title="Портфолио"
       projectLink="/"
       description="Моё личное портфолио"
+      :techIcons="techIcons2"
+      :reverse="true"
+    />
+    <ProjectCard
+      :imageSrc="Portfolio"
+      imageAlt="Цветочный магазин"
+      title="Цветочный магазин"
+      projectLink="/"
+      description="Цветоный магазин"
       :techIcons="techIcons2"
       :reverse="true"
     />

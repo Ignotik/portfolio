@@ -1,7 +1,7 @@
 <script></script>
 <template>
   <section
-    class="mx-auto flex gap-20 px-10 my-8 flex-col items-center md:flex-row md:max-w-7xl"
+    class="mx-auto flex gap-20 px-10 my-8 mb-40 flex-col items-center md:flex-row md:max-w-7xl"
   >
     <img
       src="../assets/images/me.jpg"
